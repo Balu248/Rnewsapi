@@ -15,7 +15,7 @@ const Nav = () => {
         <Link class="nav-link active" aria-current="page" to="/">View News</Link>
         <Link class="nav-link" to="#">Sports News</Link>
         <Link class="nav-link" to="#">Editorial</Link>
-        <Link class="nav-link disabled" aria-disabled="true">Disabled</Link>
+        <Link class="nav-link" to="#">International</Link>
       </div>
     </div>
   </div>
