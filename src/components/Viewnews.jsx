@@ -38,7 +38,7 @@ const Viewnews = () => {
                                                             <p class="card-text">{value.description}</p>
                                                             <p class="card-text">{value.content}</p>
                                                             <p class="card-text"><small class="text-body-secondary">Published: {value.publishedAt}</small></p>
-                                                            <a href="#" class="card-link">{value.url}</a>
+                                                            <a href={value.url} className="card-link">{value.url}</a>
                                                         </div>
                                                     </div>
                                                 </div>
