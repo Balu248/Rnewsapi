@@ -15,7 +15,7 @@ const Viewnews = () => {
     }
     useEffect(() => { fetchData() }, [])
     return (
-        <div className='bg-primary-subtle p-4 rounded'>
+        <div className='bg--info-subtle min-vh-100 py-4'>
             <Nav/>
             <div className="container">
                 <div className="row">
